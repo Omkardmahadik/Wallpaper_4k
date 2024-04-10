@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wallpaper</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-7f5Vj2A5Fm5F5F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="m-4" id="i">
+     
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" >Wallpaper 4k</a>
+                <button
+                    type="button"
+                    class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                    </div>
+                    <div >
+                      <a href="imageapi.html" class="nav-item nav-link">search images</a>
+                  </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="login.html" onsubmit="return validateForm()" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light animated-text" id="typed-text">Welcome to the Wallpaper 4k</h1>
+                
+                <p class="lead text-body-secondary">
+                    Free images of collection from the internet
+                </p>
+             
+                <p>
+                    <a href="login.html" class="btn btn-primary my-2">Login for more content</a>
+                    <a href="#" class="btn btn-secondary my-2">Download the image</a>
+                </p>
+
+            </div>
+            
+        </div>
+    </section>
+
+     <!--This part is for the images 1st image-->
+     
+     <div class="album py-5 bg-body-tertiary">
+      
+      <div class="container" id="box">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div src="v" class="grow" >
+                <img
+                  id="image"
+                  src="images/download.png"
+                  width="100%"
+                  height="280"
+                  role="img"
+                  
+                  >
+              </div>
+              <div class="card-body">
+                <p class="card-text">Nature.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- Add the Download button with the ID 'downloadButton' here -->
+                    <a
+                      
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Download</a
+                    >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--This part is for the images 2nd image-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div >
+                <img
+                  src="https://shorturl.at/sLPUX"
+                  width="100%"
+                  height="280"
+                  alt="nature"
+                  role="img"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">Future city</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/tuwW8"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Download
+                    </a>
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--This part is for the images 3rd image-->
+          <div class="col">
+            <div class="card shadow-sm" >
+             
+              <img
+                id="https://shorturl.at/tuwW8"
+                src="https://shorturl.at/tuwW8"
+                width="100%"
+                height="280"
+                role="img"
+                class="grow"
+              />
+              <div class="card-body">
+                <p class="card-text">Couple image</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/tuwW8"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Download</a
+                    >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--This part is for the images 4th image-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="grow">
+                <img
+                  src="https://shorturl.at/fjqzR"
+                  width="100%"
+                  height="280"
+                  alt="nature"
+                  role="img"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">Tajmal </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/fjqzR" 
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Download
+                    </a>
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+           <!--This part is for the images 5th image-->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div >
+                <img
+                  id="images/Villain Arc.jpeg"
+                  src="images/Villain Arc.jpeg"
+                  width="100%"
+                  height="280"
+                  role="img"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">Galaxy</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                    href="Villain Arc.jpeg"
+                    id="downloadButton"
+                    class="btn btn-sm btn-outline-secondary"
+                    >Download</a
+                  >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--This part is for the images 6th image-->
+          <div class="col">
+            <div class="card shadow-sm" >
+  
+              <img
+                id="https://shorturl.at/tBLU7"
+                src="https://shorturl.at/tBLU7"
+                width="100%"
+                height="280"
+                role="img"
+                class="grow"
+              />
+              <div class="card-body">
+                <p class="card-text">nature</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/tBLU7"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Download</a
+                    >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!--This part is for the images 7th image-->
+          <div class="col">
+            <div class="card shadow-sm" >
+  
+              <img
+                id="https://shorturl.at/ksvG6"
+                src="images/photoshoot-love-heart-created-by-young-couple-hand-hd-images-photos-fb-images-free-download.jpg"
+                width="100%"
+                height="280"
+                role="img"
+                class="grow"
+              />
+              <div class="card-body">
+                <p class="card-text">Single men</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/ksvG6"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Download</a
+                    >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm" >
+  
+              <img
+                id="https://shorturl.at/aHPRW"
+                src="https://shorturl.at/aHPRW"
+                width="100%"
+                height="280"
+                role="img"
+               
+              />
+              <div class="card-body">
+                <p class="card-text">Future nature view</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/aHPRW"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Download</a
+                    >
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div >
+                <img
+                  src="https://shorturl.at/dlzL1"
+                  width="100%"
+                  height="280"
+                  alt="nature"
+                  role="img"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">Nature</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://shorturl.at/dlzL1"
+                      id="downloadButton"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Download
+                    </a>
+                  </div>
+                  <small class="text-body-secondary">Free</small>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a href="index5.html"class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item">
+          <a class="page-link" href="index2.html">2</a>
+        </li>
+        <li class="page-item">
+          <li class="page-item">
+            <a class="page-link" href="index3.html">3</a>
+          </li>
+          <li class="page-item"> 
+            <li class="page-item">
+              <a class="page-link" href="index4.html">4</a>
+            </li>
+            <li class="page-item">
+              <li class="page-item">
+                <a class="page-link" href="index5.html">5</a>
+              </li>
+              <li class="page-item">
+          <a class="page-link" href="index2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        function download() {
+            // Replace 'download.png' with the actual path to your image file
+            const imagePath = "download.png";
+
+            // Create a temporary anchor element to trigger the download
+            const downloadLink = $("<a>")
+                .attr("href", imagePath)
+                .attr("download", "download.png")
+                .appendTo("body");
+
+            // Trigger the click event on the anchor element to initiate the download
+            downloadLink[0].click();
+
+            // Clean up the temporary anchor element
+            downloadLink.remove();
+        }
+
+        $("#downloadButton").on("click", download);
+
+        function startTypingAnimation() {
+            const animatedText = document.getElementById('typed-text');
+            const textToType = animatedText.innerText;
+
+            let currentText = '';
+            let i = 0;
+            const intervalId = setInterval(function () {
+                if (i < textToType.length) {
+                    currentText += textToType.charAt(i);
+                    animatedText.textContent = currentText;
+                    i++;
+                } else {
+                    clearInterval(intervalId);
+                }
+            }, 100); // Adjust the typing speed by changing the interval (in milliseconds)
+        }
+
+        // Start the animation when the page loads
+        window.addEventListener('load', startTypingAnimation);
+
+
+
+        function showLoginMessage() {
+    // Check if the user is logged in (you can add your own logic here)
+    const isLoggedIn = false; // Change this to your authentication check
+
+    if (!isLoggedIn) {
+        // User is not logged in, show the login modal or alert
+        // Using Bootstrap modal to show a login message
+        $('#loginModal').modal('show');
+
+        // Alternatively, you can use a simple JavaScript alert:
+        // alert('Please log in to access this content.');
+    } else {
+        // User is logged in, proceed with any desired action
+        // For example, initiate image download or navigate to another page
+    }
+}
+  
+const apiKey = 'nv5U6Swszzko1IFBeyr5YdumnuiOYaKpFup1bagtXqo';
+const apiUrl = 'https://api.unsplash.com/photos/random';
+
+// Make a GET request to the Unsplash API
+fetch(`${apiUrl}?client_id=${apiKey}`)
+  .then((response) => response.json())
+  .then((data) => {
+    const imageUrl = data.urls.regular;
+
+    // Create an image element and set its source
+    const image = document.createElement('img');
+    image.src = imageUrl;
+
+    // Append the image to a container on your web page
+    const imageContainer = document.getElementById('image-container');
+    imageContainer.appendChild(image);
+  })
+  .catch((error) => {
+    console.error('Error fetching image:', error);
+  });
+
+
+    </script>
+</body>
+</html>
